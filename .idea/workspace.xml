@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c58accf-487f-4d6a-9f6e-8636af3092a0" name="Changes" comment="" />
+    <list default="true" id="9c58accf-487f-4d6a-9f6e-8636af3092a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/model/Joueur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/services/CarteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/services/CarteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/natsystem/services/CarteServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/model/Carte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hposadas/natsystem/MainTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -48,87 +58,91 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.hposadas.natsystem.services" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.hposadas.natsystem.services" />
       <recent name="org.hposadas.natsystem" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CarteServiceImplTest">
+    <configuration name="CarteServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NatSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hposadas.natsystem.*" />
+          <option name="PATTERN" value="org.hposadas.natsystem.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hposadas.natsystem" />
-      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.MainTest" />
+      <option name="PACKAGE_NAME" value="org.hposadas.natsystem.services" />
+      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.services.CarteServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.ajouterCartesAuVainqueur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarteServiceImplTest.ajouterCartesAuVainqueur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NatSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hposadas.natsystem.*" />
+          <option name="PATTERN" value="org.hposadas.natsystem.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hposadas.natsystem" />
-      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.MainTest" />
+      <option name="PACKAGE_NAME" value="org.hposadas.natsystem.services" />
+      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.services.CarteServiceImplTest" />
       <option name="METHOD_NAME" value="ajouterCartesAuVainqueur" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testPiocherCartesDuPli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarteServiceImplTest.generateTextFileResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NatSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hposadas.natsystem.*" />
+          <option name="PATTERN" value="org.hposadas.natsystem.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hposadas.natsystem" />
-      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.MainTest" />
-      <option name="METHOD_NAME" value="testPiocherCartesDuPli" />
+      <option name="PACKAGE_NAME" value="org.hposadas.natsystem.services" />
+      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.services.CarteServiceImplTest" />
+      <option name="METHOD_NAME" value="generateTextFileResults" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testPrendreCartesDuPli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarteServiceImplTest.prendreCartesDuPli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NatSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hposadas.natsystem.*" />
+          <option name="PATTERN" value="org.hposadas.natsystem.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hposadas.natsystem" />
-      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.MainTest" />
-      <option name="METHOD_NAME" value="testPrendreCartesDuPli" />
+      <option name="PACKAGE_NAME" value="org.hposadas.natsystem.services" />
+      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.services.CarteServiceImplTest" />
+      <option name="METHOD_NAME" value="prendreCartesDuPli" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.trouverCartePlusForte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarteServiceImplTest.trouverCartePlusForte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NatSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hposadas.natsystem.*" />
+          <option name="PATTERN" value="org.hposadas.natsystem.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hposadas.natsystem" />
-      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.MainTest" />
+      <option name="PACKAGE_NAME" value="org.hposadas.natsystem.services" />
+      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.services.CarteServiceImplTest" />
       <option name="METHOD_NAME" value="trouverCartePlusForte" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -137,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.ajouterCartesAuVainqueur" />
-        <item itemvalue="JUnit.MainTest.trouverCartePlusForte" />
-        <item itemvalue="JUnit.MainTest.testPiocherCartesDuPli" />
-        <item itemvalue="JUnit.MainTest.testPrendreCartesDuPli" />
+        <item itemvalue="JUnit.CarteServiceImplTest" />
+        <item itemvalue="JUnit.CarteServiceImplTest.generateTextFileResults" />
+        <item itemvalue="JUnit.CarteServiceImplTest.ajouterCartesAuVainqueur" />
+        <item itemvalue="JUnit.CarteServiceImplTest.trouverCartePlusForte" />
+        <item itemvalue="JUnit.CarteServiceImplTest.prendreCartesDuPli" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684961575790</updated>
-      <workItem from="1684961580101" duration="15247000" />
+      <workItem from="1684961580101" duration="38772000" />
     </task>
     <servers />
   </component>
@@ -173,16 +187,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/Main.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

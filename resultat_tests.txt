@@ -1,0 +1,5 @@
+8 de Pique est plus grande que 4 de Pique
+Le joueur qui a gagne la main est le joueur 2
+2 de Carreau est plus petite que As de Coeur
+3 de Trefle est plus petite que As de Coeur
+4 de Pique est plus petite que As de Coeur

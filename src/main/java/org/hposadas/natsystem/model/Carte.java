@@ -1,4 +1,4 @@
-package org.hposadas.natsystem;
+package org.hposadas.natsystem.model;
 
 public class Carte {
 
