@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c58accf-487f-4d6a-9f6e-8636af3092a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/Carte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hposadas/natsystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/natsystem/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c58accf-487f-4d6a-9f6e-8636af3092a0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +43,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,7 +55,22 @@
       <recent name="org.hposadas.natsystem" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.ajouterCartesAuVainqueur">
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NatSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hposadas.natsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hposadas.natsystem" />
+      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.ajouterCartesAuVainqueur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NatSystem" />
       <extension name="coverage">
@@ -78,22 +82,6 @@
       <option name="PACKAGE_NAME" value="org.hposadas.natsystem" />
       <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.MainTest" />
       <option name="METHOD_NAME" value="ajouterCartesAuVainqueur" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.piocherCartesDuPli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NatSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hposadas.natsystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hposadas.natsystem" />
-      <option name="MAIN_CLASS_NAME" value="org.hposadas.natsystem.MainTest" />
-      <option name="METHOD_NAME" value="piocherCartesDuPli" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.ajouterCartesAuVainqueur" />
         <item itemvalue="JUnit.MainTest.trouverCartePlusForte" />
         <item itemvalue="JUnit.MainTest.testPiocherCartesDuPli" />
         <item itemvalue="JUnit.MainTest.testPrendreCartesDuPli" />
-        <item itemvalue="JUnit.MainTest.piocherCartesDuPli" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684961575790</updated>
-      <workItem from="1684961580101" duration="14762000" />
+      <workItem from="1684961580101" duration="15247000" />
     </task>
     <servers />
   </component>

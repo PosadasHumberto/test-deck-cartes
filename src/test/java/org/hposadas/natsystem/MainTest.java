@@ -16,7 +16,7 @@ class MainTest {
         cartesDesJoueurs.add(joueur1);
         cartesDesJoueurs.add(joueur2);
 
-        List<Carte> cartesDuPli = new ArrayList<>(Arrays.asList(new Carte("Pique", "Dame"), new Carte("Trèfle", "10")));
+        List<Carte> cartesDuPli = new ArrayList<>(Arrays.asList(new Carte("Pique", "Dame"), new Carte("Trefle", "10")));
         Main.ajouterCartesAuVainqueur(cartesDuPli, cartesDesJoueurs);
 
         Assert.assertEquals(3, cartesDesJoueurs.get(0).size());
@@ -29,7 +29,7 @@ class MainTest {
                 new Carte( "Coeur", "As"),
                 new Carte( "Carreau", "Roi"),
                 new Carte("Pique", "Dame"),
-                new Carte("Trèfle", "10")
+                new Carte("Trefle", "10")
         );
 
         Carte cartePlusForte = Main.trouverCartePlusForte(cartes);
@@ -40,8 +40,8 @@ class MainTest {
     @Test
     public void testPiocherCartesDuPli() {
         List<List<Carte>> cartesDesJoueurs = new ArrayList<>();
-        List<Carte> joueur1 = new ArrayList<>(Arrays.asList(new Carte("As", "Coeur"), new Carte("2", "Carreau"), new Carte("3", "Trèfle")));
-        List<Carte> joueur2 = new ArrayList<>(Arrays.asList(new Carte("Roi", "Pique"), new Carte("Dame", "Carreau"), new Carte("10", "Trèfle")));
+        List<Carte> joueur1 = new ArrayList<>(Arrays.asList(new Carte("As", "Coeur"), new Carte("2", "Carreau"), new Carte("3", "Trefle")));
+        List<Carte> joueur2 = new ArrayList<>(Arrays.asList(new Carte("Roi", "Pique"), new Carte("Dame", "Carreau"), new Carte("10", "Trefle")));
         cartesDesJoueurs.add(joueur1);
         cartesDesJoueurs.add(joueur2);
 
